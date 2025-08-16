@@ -4,7 +4,7 @@ const userInput = document.getElementById('user-input');
 const sendBtn = document.getElementById('send-btn');
 
 // ⚠️ Replace with your OpenAI API key
-const API_KEY = "sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXX"; 
+const API_KEY = "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"; 
 
 async function sendMessage() {
     const message = userInput.value.trim();
